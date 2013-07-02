@@ -5,7 +5,7 @@ using StructureMap;
 
 namespace Sep.Git.Tfs.Commands
 {
-    [Pluggable("checkin")]
+/*    [Pluggable("checkin")]
     [Description("checkin [options] [ref-to-shelve]")]
     [RequiresValidGitRepository]
     public class Checkin : CheckinBase
@@ -20,4 +20,5 @@ namespace Sep.Git.Tfs.Commands
             return changeset.Remote.Checkin(refToCheckin, changeset, _checkinOptions);
         }
     }
+ */
 }

@@ -9,7 +9,7 @@ using StructureMap;
 
 namespace Sep.Git.Tfs.Commands
 {
-    [Pluggable("rcheckin")]
+/*    [Pluggable("rcheckin")]
     [RequiresValidGitRepository]
     public class Rcheckin : GitTfsCommand
     {
@@ -226,4 +226,5 @@ namespace Sep.Git.Tfs.Commands
             repository.CommandNoisy("rebase", "--preserve-merges", "--onto", tfsLatest, target);
         }
     }
+ */
 }
